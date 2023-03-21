@@ -1,0 +1,113 @@
+body {
+  color: #251b37;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  background: rgba(147, 125, 194, 0.4);
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 2px solid #372948;
+  border-radius: 5px;
+  background-image: url("../images/art.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.overview {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.weather-temperature {
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 68px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.weather-app .units {
+  position: relative;
+  font-size: 20px;
+  top: -34px;
+}
+
+.weather-temperature a {
+  text-decoration: none;
+  color: #6c00ff;
+}
+.weather-temperature .active {
+  color: #251b37;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.author {
+  color: #372948;
+}
+
+.wheather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  opacity: 0.9;
+}
+.weather-forecast-temperature {
+  font-size: 18px;
+  text-align: center;
+}
+
+.weather-forecast-temperature-min {
+  color: #6c00ff;
+  opacity: 0.9;
+}
+.metrology {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
